@@ -1,0 +1,88 @@
+body {
+    /* background-image: url("../Project1/leaves.png"); */
+    background-color: mintcream;
+   }
+
+.container {
+    position: relative;
+}
+
+.dropdown{
+    position: fixed;
+}
+
+#random-quote {
+    color: black;
+    font-family: 'Arial';
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+#author {
+    font-size: 16px;
+   font-family: "Arial";
+}
+
+.quote {
+    margin-top: 7%;
+}
+ 
+.quoteBtn {
+     text-align: center;
+     margin-top: 3%;
+     margin-bottom: 9%;
+}
+
+.img-btn {
+    padding-left: 1.5%;
+}
+
+
+.row-2{
+    height: 520px;
+    margin-top: 1%;
+    margin-bottom: 10%;
+}
+
+
+.img-fluid{
+    height: 520px;
+    width: 650px;
+}
+
+textarea {
+    border: 1px solid #EEEEEE;
+        box-shadow: 1px 1px 0 #DDDDDD;
+        display: block;
+        font-family: 'Arial';
+        font-size: 16px;
+        resize: none;
+        height: 100%;
+        width: 100%;
+        /* background-image: repeating-linear-gradient(white 0px, white 24px, teal 25px); */
+        line-height: 4ch;
+        background-size: 100% 4ch;
+}
+
+#user-input:hover {
+    box-shadow: 0 .1px .1px grey, 0 .1px .1px grey;
+}
+
+.image-div, .journal-div {
+    box-shadow: 0 4px 8px 0 rgb(167, 233, 200), 0 -4px 8px 0 rgb(167, 233, 200);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.image-div {
+    border-right: 1px solid grey;
+}
+
+.journal-div {
+    border-left: 1px solid grey;
+}
+
+.journal-div:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(95, 94, 94, 0.19);
+}
