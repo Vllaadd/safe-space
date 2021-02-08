@@ -1,0 +1,25 @@
+body{
+    background-image: url('sunnyleaves.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.welcome{
+    height: 30px;
+    width: 100px;
+}
+
+.card{
+    margin: 50px 30px 50px 30px; 
+    padding: 10px;
+    font-size: larger;
+}
+
+.card-text{
+    font-size: larger;
+}
+
+.enjoy{
+    font-size: larger;
+}
