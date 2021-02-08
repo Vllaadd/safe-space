@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Safe Space</title>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- row for music player -->
+    <div class="row">
+      <div class="col-6">
+        
+<!-- Dropdown Sounds Menu -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Choose sound
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <button id="playBeach" class="dropdown-item" type="button">Beach</button>
+            <button id="playRain" class="dropdown-item" type="button">Rain</button>
+            <button id="playLofi" class="dropdown-item" type="button">LoFi</button>
+            <button id="playMeditation" class="dropdown-item" type="button">Meditation</button>
+            <button id="playPiano" class="dropdown-item" type="button">Piano</button>
+          </div>
+        </div>
+
+<!-- Sounds -->
+        <audio id="beachSound">
+          <source src="./sounds/beach.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="rainSound">
+          <source src="./sounds/rain.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="LofiSound">
+          <source src="./sounds/LoFi.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="meditationSound">
+          <source src="./sounds/meditation.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="pianoSound">
+          <source src="./sounds/piano.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+
+    <!--row for quote-->
+    <div class="row justify-content-md-center quote">
+      <div class="col-6">
+        <!--placeholder text until quote-API merged-->
+        <p id="random-quote">"Always be yourself and have faith in yourself. Do not go out and look for a successful
+          personality
+          and try to duplicate it."<p>
+        <p id="author">-- Bruce Lee</p>
+      </div>
+    </div>
+
+    <!--row for quote btn-->
+    <div class="row">
+      <div class="col-12 quoteBtn">
+        <button id="quote-button" type="button" class="btn btn-info">Get Inspired...</button>
+      </div>
+    </div>
+
+    <!--row for image selection button-->
+    <div class="row">
+      <div class="col-sm-6 col-xl-5 img-btn">
+        <input id="user-input" type="text" placeholder="Choose your image">
+        <button id="get-image" type="button" class="btn btn-success">Get Image</button>
+      </div>
+    </div><br>
+    <div class="row justify-content-md-center row-2">
+      
+      <!-- this is where the image will be -->
+      <div class="col-sm-6 col-xl-6 image-div">
+        <div id="image">
+          <img class="img-fluid" src="https://miro.medium.com/max/10944/0*fSmEy0sLi-pOhttn"/>
+        </div>
+      </div>
+
+      <!--journal textbox-->
+      <div class="col-sm-6 col-xl-6 journal-div">
+        <textarea  name="" id="journal-text" cols="" rows=""></textarea>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+  <script src="music-player.js"></script>
+</body>
+
+</html>
