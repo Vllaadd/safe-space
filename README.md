@@ -2,7 +2,7 @@
 
 ## Description
 
-This application is a browser-based journal-entry app to promotes self-care because. Out of all the relationships we build during life, the most imporatant is the one that we have with ourselves. To love others, we must love ourselves first, which begins with an internal understanding on what we need on an individual basis. Through this application, we strive to make this difficult task somewhat more manageable by providing a safe, calming space to reflect on and process your thoughts for a deeper understanding of your personal needs.
+This application is a browser-based journal-entry app which promotes self-care because, out of all the relationships we build during life, the most imporatant is the one that we have with ourselves. To love others, we must love ourselves first, which begins with an internal understanding on what we need on an individual basis. Through this application, we strive to make this difficult task somewhat more manageable by providing a safe, calming space to reflect on and process your thoughts for a deeper understanding of your personal needs.
 
 ## Instructions
 
